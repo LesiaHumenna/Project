@@ -1,0 +1,400 @@
+* {
+  padding: 0;
+  margin : 0;
+  border : 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  width    : 100%;
+  height   : 100%;
+  font-size: 16px;
+}
+
+body {
+  font-family     : Arial, sans-serif;
+  line-height     : 1.5;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color          : inherit;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+  max-width     : 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border : 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a,
+:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size  : inherit;
+  font-weight: inherit;
+}
+
+.block-main {
+  width     : 100%;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 1250px;
+  margin   : 0px auto;
+}
+
+.header {
+  margin         : 13px auto 15px;
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-between;
+}
+
+.block-logo {
+  width      : 79px;
+  height     : 24px;
+  padding-top: 21px;
+  margin-left: 95px;
+}
+
+.block-nav {
+  width      : 464px;
+  height     : 14px;
+  padding-top: 26px;
+  left: 478px;
+}
+
+.block-ul {
+  display       : inline-flex;
+  flex-direction: row;
+  gap           : 26px;
+  
+}
+
+
+.block-li {
+  text-align: center;
+}
+
+.block-link {
+  font-size      : 14px;
+  line-height    : 14px;
+  color          : #1C1C1C;
+  text-decoration: none;
+}
+
+.button-b1 {
+  padding-top: 13px;
+}
+
+.b-1 {
+  width           : 157px;
+  height          : 40px;
+  border-radius   : 20px;
+  background-color: #6F2CFF;
+  font-size       : 14px;
+  line-height     : 14px;
+  color           : #FFFFFF;
+}
+
+.b-1:hover {
+  background-color: #7e1196;
+  transition      : 2s;
+  cursor          : pointer;
+}
+/*main__section1*/
+
+.main__section1 {
+  background-color: #F6BED9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main__block-title {
+  padding-top : 171px;
+  padding-left: 95px;
+}
+
+.main__title {
+  font-weight: 700;
+  font-size  : 54px;
+  line-height: 61px;
+  color      : #000000;
+  max-width  : 470px;
+}
+
+.main-title-violet {
+  font-weight: 700;
+  font-size  : 54px;
+  line-height: 54px;
+  color      : #6F2DFF;
+}
+
+.main__text {
+  font-style : Regular;
+  font-size  : 18px;
+  line-height: 30px;
+  color      : #000000;
+  margin     : 18px 0;
+  max-width  : 438px;
+  height     : 120px;
+}
+
+.main__input {
+  width        : 268px;
+  height       : 45px;
+  border-radius: 28px;
+  border       : 1px solid #6F2CFF;
+  padding-left : 26px;
+}
+
+.main__input ::placeholder {
+  font-size  : 15px;
+  line-height: 21px;
+  color      : rgba(0, 0, 0, 0.27);
+}
+
+.b-2 {
+  width           : 187px;
+  height          : 45px;
+  border-radius   : 28px;
+  background-color: #6F2CFF;
+  margin-left     : 9px;
+  color           : #FFFFFF;
+  font-size: 15px;
+  line-height: 21px;
+}
+.b-2:hover {
+  background-color: #7e1196;
+  transition      : 2s;
+  cursor          : pointer;
+}
+/*main__container2*/
+
+.main__container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 136px;
+}
+
+.block-h2 {
+  width : 415px;
+  height: 90px;
+  padding-top: 185px;
+}
+
+.text-h2 {
+  font-size  : 40px;
+  font-style : bold;
+  line-height: 45px;
+  color      : #1C1C1C;
+}
+
+.img-card {
+  width         : 333.91px;
+  height        : 205px;
+  padding-bottom: 0px;
+}
+
+.block-about-img {
+  width : 333.91px;
+  height: 205px;
+}
+
+.text-h3 {
+  font-size  : 26px;
+  font-weight: 400;
+  line-height: 22px;
+  color      : #000000;
+  padding-top: 35px;
+}
+
+.text-card {
+  width      : 219px;
+  height     : 66px;
+  font-size  : 18px;
+  line-height: 22px;
+  color      : #6F2CFF;
+  padding-top: 28px;
+}
+/*main__container3*/
+
+.main__container3 {
+  padding-top: 136px;
+  max-width  : 1250px;
+  min-height : 350px;
+}
+
+.block-h3 {
+  padding-left: 433px;
+  margin-top  : 31px;
+  align-items : center;
+}
+
+.container3-h3 {
+  width      : 387px;
+  height     : 45px;
+  font-size  : 40px;
+  line-height: 45px;
+  color      : #000000;
+}
+
+.container3-card {
+  display        : flex;
+  justify-content: space-between;
+  justify-items  : center;
+  padding-top    : 79px;
+  width          : 1238px;
+  height         : 197px;
+
+}
+
+.b-card1 .b-card2 .b-card3 {
+  width         : 316px;
+  height        : 210px;
+  display       : flex;
+  flex-direction: row;
+
+}
+
+.card-v-r1 {
+  width      : 50px;
+  height     : 50px;
+  margin-left: 136px;
+}
+
+.card-h3 {
+  padding-top: 42px;
+  font-weight: 700;
+  font-size  : 19px;
+  line-height: 23px;
+  color      : #000000;
+  text-align : center;
+}
+
+.card1-text {
+  font-weight: 400;
+  font-size  : 15px;
+  line-height: 22px;
+  color      : #000000;
+  padding-top: 16px;
+  width      : 316px;
+  height     : 66px;
+  text-align : center;
+}
+
+/*footer*/
+
+.footer {
+  margin-top      : 140px;
+  background-color: #20003C;
+  width           : 100%;
+  height          : 156px;
+}
+
+.block-footer {
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-between;
+  max-width      : 1250px;
+  margin         : 0px auto;
+}
+
+.footer-nav {
+  width      : 614px;
+  height     : 21px;
+  padding-top: 67px;
+}
+
+.footer-ul {
+  display       : inline-flex;
+  flex-direction: row;
+  gap           : 74px;
+}
+
+.footer-li {
+  color      : #FFFFFF;
+  font-size  : 16px;
+  line-height: 20.8px;
+}
+
+.b-3 {
+  margin-top: 58px;
+  width           : 157px;
+  height          : 40px;
+  border-radius   : 20px;
+  background-color: #6F2CFF;
+  font-size       : 14px;
+  line-height     : 14px;
+  color           : #FFFFFF;
+}
+.b-3:hover {
+  background-color: #7e1196;
+  transition      : 2s;
+  cursor          : pointer;
+}
