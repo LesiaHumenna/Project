@@ -1,3 +1,13 @@
+let answers = [];
+questions = [
+"What is your name?",
+"What is your last name?",
+"How old are you?",
+];
+for (let i = 0; i < questions.length; i++) {
+answers[i] = prompt(questions[i], "");
+console.log(questions);
+}
 const emailInput = document.querySelector('.main__inp[type="email"]');
 const buttonBtn = document.querySelector(".b-2");
 const headingName = document.querySelector("h1");
